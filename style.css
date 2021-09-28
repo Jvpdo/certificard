@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,600&display=swap");
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  background: linear-gradient(76.85deg, #9055ff 26.26%, #4be1ec 96.03%);
+  font-family: "Nunito", sans-serif;
+  max-width: 960px;
+}
+
+.container {
+  padding: 64px;
+  background: #ecf4ff;
+  color: #1c1c1d;
+  border-radius: 20px;
+  margin: 80px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.perfil {
+  display: flex;
+  align-content: center;
+}
+
+.perfil-foto {
+  max-height: 160px;
+  border-radius: 460px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.titulo {
+  margin-left: 20px;
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  p {
+    margin-top: 0px;
+  }
+}
+
+.icones-perfil {
+  margin: 3px;
+  font-size: 30px;
+  text-decoration: none;
+  color: linear-gradient(87.85deg, #4be1ec 6.26%, #9055ff 6.03%);
+  transition: color 0.2s;
+  :hover {
+    color: #4be1ec;
+  }
+}
+
+.projetos {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background: red;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: linear-gradient(76.85deg, #9055ff 26.26%, #4be1ec 96.03%);
+  a {
+    font-size: 1.1em;
+    color: #fcfcfc;
+    font-weight: 500;
+  }
+  a:hover {
+    color: #000;
+    font-weight: 500;
+  }
+  p {
+    font-size: 20px;
+    color: #fcfcfc;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+}
